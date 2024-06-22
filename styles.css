@@ -1,0 +1,129 @@
+body {
+    font-family: 'Reddit Mono', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    max-width: 100vw;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.banner {
+    height: 1px; /* Adjust height as needed */
+}
+
+.profile-picture {
+    width: 15vw;
+    height: 15vw;
+    background-image: url("images/pplewagon.jpg");
+    background-color: #fff;
+    background-size: contain;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 20vh;
+    right: 8vw;
+    transform: translateY(-50%);
+}
+
+#myBtn {
+  display: block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #007bff; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+.title {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+button.collapsible   {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container {
+    max-width: 80vw;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a[href="#background"],
+a[href="#goals"],
+a[href="#more"],
+a[href="#contact"] {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #D3d3d3;
+}
+
+a[href="#background"]:hover,
+a[href="#goals"]:hover,
+a[href="#more"]:hover,
+a[href="#contact"]:hover {
+    color: #0056b3;
+}
